@@ -65,7 +65,19 @@ class SinglyCL:
         pass
     
     def Display(self):
-        pass
+        if(self.first == None):
+            return
+        
+        temp = self.first
+
+        while True:
+            print(f"| {temp.data} | -> ", end="")
+            temp = temp.next
+
+            if temp == self.first:
+                break
+
+        print()
 
     # DONE 
     def Count(self):
