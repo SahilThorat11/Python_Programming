@@ -11,6 +11,7 @@ class SinglyCL:
         self.first = None
         self.iCount = 0
 
+    # DONE
     def InsertFirst(self, no):
         newn = Node(no) 
 
