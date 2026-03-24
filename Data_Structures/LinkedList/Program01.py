@@ -5,7 +5,6 @@ class Node:
         self.next = None
 
 
-
 def main():
 
     head = None
