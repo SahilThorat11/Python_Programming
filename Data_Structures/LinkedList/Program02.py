@@ -4,7 +4,6 @@ class Node:
         self.data = value
         self.next = None
 
-
 def main():
 
     head = None
