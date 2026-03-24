@@ -32,14 +32,15 @@ class SinglyCL:
 
         self.iCount = self.iCount + 1
             
-    
+    # DONE
     def InsertLast(self, no):
         newn = Node(no)
 
+        # LL is empty
         if(self.first == None):
             self.first = newn
             newn.next = self.first
-
+        #LL contains atleast one node
         else:
             temp = self.first
 
