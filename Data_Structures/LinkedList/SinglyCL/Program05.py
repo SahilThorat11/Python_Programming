@@ -78,7 +78,7 @@ class SinglyCL:
 
             self.iCount = self.iCount + 1
      
-
+    # DONE
     def DeleteFirst(self):
 
         # If LL is Empty
