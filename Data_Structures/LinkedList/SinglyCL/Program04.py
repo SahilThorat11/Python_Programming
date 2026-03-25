@@ -32,7 +32,7 @@ class SinglyCL:
 
         self.iCount = self.iCount + 1
             
-    
+    # DONE
     def InsertLast(self, no):
         newn = Node(no)
 
@@ -51,6 +51,7 @@ class SinglyCL:
 
         self.iCount = self.iCount + 1
 
+    # DONE
     def InsertAtPos(self, no, pos):
         
         # Invalid Position
