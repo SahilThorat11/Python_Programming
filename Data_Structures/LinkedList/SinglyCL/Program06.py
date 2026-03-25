@@ -122,6 +122,7 @@ class SinglyCL:
     def DeleteAtPos(self, pos):
         pass
     
+    # DONE
     def Display(self):
         if(self.first == None):
             return
