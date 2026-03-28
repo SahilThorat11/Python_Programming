@@ -49,6 +49,7 @@ class DoublyCL:
     
     # DONE
     def Display(self):
+        # if LL is empty
         if((self.first == None) and (self.last == None)):
             print("Linked list is Empty")
             return
