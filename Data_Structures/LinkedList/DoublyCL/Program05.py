@@ -133,7 +133,7 @@ def main():
     print("Number of elements in Linked list are : ", dobj.Count())
     print()
     
-    dobj.InsertAtPos(121, 4)
+    dobj.InsertAtPos(75, 4)
 
     print("Elements of Linked list are : ")
     dobj.Display()
