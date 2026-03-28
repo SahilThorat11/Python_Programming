@@ -102,7 +102,7 @@ class DoublyCL:
         if((self.first == None) and (self.last == None)):
             return
         # LL contains Single node
-        elif self.first == self.last:
+        elif(self.first == self.last):
             self.first = None
             self.last = None
         # LL contains more than one node
