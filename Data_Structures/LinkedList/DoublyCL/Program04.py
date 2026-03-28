@@ -98,6 +98,15 @@ def main():
     dobj.Display()
     print("Number of elements in Linked list are : ", dobj.Count())
     print()
+
+    dobj.InsertLast(101)
+    dobj.InsertLast(111)
+    dobj.InsertLast(121)
+
+    print("Elements of Linked list are : ")
+    dobj.Display()
+    print("Number of elements in Linked list are : ", dobj.Count())
+    print()
     
 if __name__ == "__main__":
     main()
