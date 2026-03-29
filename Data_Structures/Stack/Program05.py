@@ -21,7 +21,7 @@ class Stack:
         self.iCount = self.iCount + 1
 
     def Pop(self):
-        if self.first is None:
+        if(self.first is None):
             print("Stack is empty")
             return None   
 
