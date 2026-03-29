@@ -53,7 +53,7 @@ class Stack:
 
 def main():
     sobj = Stack()
-
+    
     sobj.Push('A')
     sobj.Push('B')
     sobj.Push('C')
