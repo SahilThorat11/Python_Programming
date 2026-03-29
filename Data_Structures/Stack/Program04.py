@@ -32,6 +32,10 @@ class Stack:
         if(self.first is None):
             print("Stack is empty")
             return
+        
+        while temp is not None:
+            print("|", temp.data, "|")
+            temp = temp.next
 
     def Count(self):
         return self.iCount        
