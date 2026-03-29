@@ -15,7 +15,7 @@ class Stack:
         newn = Node(no)
 
         newn.next = self.first
-        self.first = newn
+        self.first = newn      
 
         self.iCount = self.iCount + 1
 
