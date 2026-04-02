@@ -37,6 +37,8 @@ class Queue:
             print("|", temp.data, "|-", end="")
             temp = temp.next
 
+            print()
+
     def count(self):
         pass
 
