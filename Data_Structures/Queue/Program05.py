@@ -33,11 +33,9 @@ class Queue:
 
         temp = self.first
 
-        while(temp.next != None):
+        while(temp != None):
             print("|", temp.data, "|-", end="")
             temp = temp.next
-
-        print()
 
     def count(self):
         return self.iCount
