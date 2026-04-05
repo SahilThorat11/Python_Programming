@@ -1,0 +1,115 @@
+# 🔍 Searching & Sorting Algorithms (Python)
+
+This folder contains implementations of fundamental **Searching and Sorting algorithms** written in Python. These algorithms are essential for building a strong foundation in Data Structures and preparing for coding interviews.
+
+---
+
+## 📁 Folder Structure
+
+```
+Searching_Sorting/
+│
+├── BubbleSort/
+│   └── bubble_sort.py
+│
+├── InsertionSort/
+│   └── insertion_sort.py
+│
+├── SelectionSort/
+│   └── selection_sort.py
+```
+
+---
+
+## 📌 Algorithms Included
+
+### 🔸 Bubble Sort
+
+* Repeatedly swaps adjacent elements if they are in the wrong order.
+* **Time Complexity:**
+
+  * Worst/Average: O(n²)
+  * Best: O(n) (optimized version)
+* **Stable:** ✅ Yes
+* **In-place:** ✅ Yes
+
+---
+
+### 🔸 Insertion Sort
+
+* Builds the sorted array one element at a time.
+* Efficient for small or nearly sorted datasets.
+* **Time Complexity:**
+
+  * Worst/Average: O(n²)
+  * Best: O(n)
+* **Stable:** ✅ Yes
+* **In-place:** ✅ Yes
+
+---
+
+### 🔸 Selection Sort
+
+* Repeatedly selects the minimum element and places it at the beginning.
+* Performs minimum number of swaps.
+* **Time Complexity:**
+
+  * Worst/Average/Best: O(n²)
+* **Stable:** ❌ No
+* **In-place:** ✅ Yes
+
+---
+
+## 🚀 How to Run
+
+1. Navigate to the specific algorithm folder:
+
+   ```
+   cd BubbleSort
+   ```
+
+2. Run the Python file:
+
+   ```
+   python bubble_sort.py
+   ```
+
+3. Enter input as prompted.
+
+---
+
+## 🎯 Learning Goals
+
+* Understand core sorting techniques
+* Learn time and space complexity analysis
+* Build a strong base for advanced algorithms
+* Prepare for coding interviews
+
+---
+
+## 📚 Future Additions
+
+* Merge Sort
+* Quick Sort
+* Heap Sort
+* Binary Search
+* Linear Search
+
+---
+
+## 👨‍💻 Author
+
+Sahil Thorat
+Aspiring Backend Developer | Java | Python | DSA
+
+---
+
+## 🤝 Contribution
+
+Feel free to improve implementations or add new algorithms. Contributions are welcome!
+
+---
+
+## ⭐ Note
+
+This repository is part of my journey to master **Data Structures and Algorithms using Python**.
